@@ -1,0 +1,42 @@
+.container-home{
+height: 100%;
+width: 100%;
+}
+.part-sitter{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    margin:10em auto;
+    width: 70%;
+    height: 90%;
+    align-items: center;
+    padding: 2em;
+}
+.part-sitter button {
+    background-color: thistle;
+    border: thistle;
+    padding: .6em;
+    color: white;
+    border-radius: 3px;
+}
+.part-sitter button:hover{
+    background-color: rgb(197, 147, 197);
+    border: rgb(197, 147, 197);
+}
+.img-sitter{
+    background-image: url(https://static.onecms.io/wp-content/uploads/sites/38/2016/01/12220500/babysitting-co-op.jpg);
+    background-repeat: no-repeat;
+    background-size:600px 700px ;
+    background-attachment: cover;
+    /* background-position: center; */
+    background-blend-mode: color-burn;
+    height: 60vh;
+    width: 90%;
+}
+@media only  screen and (max-width:1000px) {
+    .part-sitter{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:5em;
+    }
+}

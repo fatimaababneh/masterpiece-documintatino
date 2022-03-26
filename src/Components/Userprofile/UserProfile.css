@@ -1,0 +1,50 @@
+span{
+    font-size:1.5em;
+}
+
+.infoUser{
+    display: flex;
+    flex-direction: column;
+    margin: 5em auto;
+    transition: 500ms;
+    padding: 4em;
+    box-shadow: grey 2px 3px 15px 1px;
+}
+
+.inputField{
+    font-size: 1.4em;
+    transition: 500ms;
+
+}
+.profileContainer{
+    display: flex;
+    border: solid white 0px;
+   
+}
+.inputField button{
+    margin-top: 15px;
+    width: 20%;
+    /* background-color: rgb(72, 72, 129);
+    color: white; */
+}
+.burnBtn{
+    width:10em;
+}
+#cancel{
+    background-color: red;
+    border-color: red;
+    border-radius: 4px;
+    color: white;
+    transition: 500ms;
+    margin-right: 5px;
+}
+
+#cancel:hover{
+    background-color: rgb(139, 63, 63);
+    border-color: rgb(139, 63, 63);
+    color: black;
+}
+
+.inputField input{
+    font-size: 1em;
+}

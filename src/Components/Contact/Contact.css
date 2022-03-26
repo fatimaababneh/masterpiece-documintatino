@@ -1,0 +1,58 @@
+.car-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4em auto;
+    width: fit-content;
+    position: relative;
+    padding: 5em;
+    background-color: white;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
+  }
+  .car-form-container form {
+    
+    display: flex;
+    flex-direction: column;
+  }
+  .car-form-container input[type="text"],
+  .car-form-container input[type="email"],
+  .car-form-container input[type="tel"],
+  .car-form-container input[type="date"],
+  .car-form-container input[type="time"] {
+    border: 2px solid #f0f0f0;
+    margin-bottom:.3em ;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 92%;
+  }
+  .car-form-container input[type="submit"] {
+    background-color: rgb(77, 79, 148);
+    color: white;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: 500ms;
+    margin-top: 10px;
+  }
+  .car-form-container input[type="submit"]:hover {
+    background-color: rgb(40, 42, 82);
+    border-color: black;
+  
+  }
+  .car-form-container .texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .register-label {
+    padding-top: 2em;
+    font-size: 1.2em !important;
+    color: brown;
+  }

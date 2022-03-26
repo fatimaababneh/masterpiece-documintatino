@@ -1,0 +1,23 @@
+
+.style-foot{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    color: white;
+    background-color: rgb(104, 104, 173);
+}
+.mid-nav{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   text-align: center;
+}
+.mid-nav ul li a{
+    text-decoration: none;
+    
+    color: white;
+}
+.mid-nav {
+    list-style-type: none;
+}
